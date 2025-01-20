@@ -1,16 +1,19 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./styles/styles.scss";
 
-function App() {
-  const [count, setCount] = useState(0);
+// Components
+import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
+import Features from "./components/Features";
+import Contact from "./components/Contact";
 
+function App() {
   return (
     <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <NavBar />
+      <Hero />
+      <Features />
+      <Contact />
     </>
   );
 }
