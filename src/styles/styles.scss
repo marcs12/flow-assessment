@@ -1,0 +1,10 @@
+@use "./base/global.scss";
+
+// Components
+@use "./components/_navbar.scss";
+@use "./components/transition.scss";
+
+// Pages
+@use "./pages/_home.scss";
+@use "./pages/_features.scss";
+@use "./pages/_contact.scss";
